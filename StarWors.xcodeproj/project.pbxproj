@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23135A7E7B514746AE02C046 /* Pods_StarWors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D07486BA4837DE6408D6C5 /* Pods_StarWors.framework */; };
 		D657FC232209BBB6007007FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D657FC222209BBB6007007FD /* AppDelegate.swift */; };
-		D657FC252209BBB6007007FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D657FC242209BBB6007007FD /* ViewController.swift */; };
+		D657FC252209BBB6007007FD /* SelectPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D657FC242209BBB6007007FD /* SelectPersonVC.swift */; };
 		D657FC282209BBB6007007FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D657FC262209BBB6007007FD /* Main.storyboard */; };
-		D657FC2A2209BBB9007007FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D657FC292209BBB9007007FD /* Assets.xcassets */; };
 		D657FC2D2209BBB9007007FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D657FC2B2209BBB9007007FD /* LaunchScreen.storyboard */; };
+		D657FC3A2209BDCA007007FD /* Starjout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D657FC392209BDCA007007FD /* Starjout.ttf */; };
+		D657FC3F2209BE73007007FD /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D657FC3E2209BE6B007007FD /* Starjhol.ttf */; };
+		D657FC402209BE78007007FD /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D657FC3D2209BE59007007FD /* Starjedi.ttf */; };
+		D657FC422209CC7E007007FD /* BlackBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D657FC412209CC7E007007FD /* BlackBgView.swift */; };
+		D657FC452209CE36007007FD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D657FC442209CE36007007FD /* Constants.swift */; };
+		D657FC472209CF13007007FD /* BlackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D657FC462209CF13007007FD /* BlackButton.swift */; };
+		D657FC4A2209DC2E007007FD /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D657FC492209DC2E007007FD /* PersonApi.swift */; };
+		D657FC4C220A1CDE007007FD /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = D657FC4B220A1CDE007007FD /* Person.swift */; };
+		D657FC50220B560A007007FD /* Assets 22-32-09-235.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D657FC4F220B560A007007FD /* Assets 22-32-09-235.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22D07486BA4837DE6408D6C5 /* Pods_StarWors.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarWors.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DF50840C4CAC3B56901C183 /* Pods-StarWors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWors.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StarWors/Pods-StarWors.debug.xcconfig"; sourceTree = "<group>"; };
 		D657FC1F2209BBB6007007FD /* StarWors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D657FC222209BBB6007007FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D657FC242209BBB6007007FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D657FC242209BBB6007007FD /* SelectPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPersonVC.swift; sourceTree = "<group>"; };
 		D657FC272209BBB6007007FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D657FC292209BBB9007007FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D657FC2C2209BBB9007007FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D657FC2E2209BBB9007007FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D657FC392209BDCA007007FD /* Starjout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjout.ttf; sourceTree = "<group>"; };
+		D657FC3D2209BE59007007FD /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Starjedi.ttf; path = "../../../../../../../Downloads/star_jedi-3/starjedi/Starjedi.ttf"; sourceTree = "<group>"; };
+		D657FC3E2209BE6B007007FD /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Starjhol.ttf; path = "../../../../../../../Downloads/star_jedi-3/starjedi/Starjhol.ttf"; sourceTree = "<group>"; };
+		D657FC412209CC7E007007FD /* BlackBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBgView.swift; sourceTree = "<group>"; };
+		D657FC442209CE36007007FD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D657FC462209CF13007007FD /* BlackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackButton.swift; sourceTree = "<group>"; };
+		D657FC492209DC2E007007FD /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
+		D657FC4B220A1CDE007007FD /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		D657FC4F220B560A007007FD /* Assets 22-32-09-235.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets 22-32-09-235.xcassets"; sourceTree = "<group>"; };
+		E7F01FFE2C4A8965C544C33C /* Pods-StarWors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarWors.release.xcconfig"; path = "Pods/Target Support Files/Pods-StarWors/Pods-StarWors.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23135A7E7B514746AE02C046 /* Pods_StarWors.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08C9AB75F7334B7B2711A9EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DF50840C4CAC3B56901C183 /* Pods-StarWors.debug.xcconfig */,
+				E7F01FFE2C4A8965C544C33C /* Pods-StarWors.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B7CDAA7806BFFC62968B188 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22D07486BA4837DE6408D6C5 /* Pods_StarWors.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D657FC162209BBB6007007FD = {
 			isa = PBXGroup;
 			children = (
 				D657FC212209BBB6007007FD /* StarWors */,
 				D657FC202209BBB6007007FD /* Products */,
+				08C9AB75F7334B7B2711A9EC /* Pods */,
+				8B7CDAA7806BFFC62968B188 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +94,78 @@
 		D657FC212209BBB6007007FD /* StarWors */ = {
 			isa = PBXGroup;
 			children = (
+				D657FC372209BBE3007007FD /* Resources */,
+				D657FC362209BBDB007007FD /* Controller */,
+				D657FC352209BBD4007007FD /* View */,
+				D657FC342209BBCD007007FD /* Model */,
+				D657FC482209DC11007007FD /* Services */,
+				D657FC432209CDF0007007FD /* Utils */,
 				D657FC222209BBB6007007FD /* AppDelegate.swift */,
-				D657FC242209BBB6007007FD /* ViewController.swift */,
 				D657FC262209BBB6007007FD /* Main.storyboard */,
-				D657FC292209BBB9007007FD /* Assets.xcassets */,
 				D657FC2B2209BBB9007007FD /* LaunchScreen.storyboard */,
 				D657FC2E2209BBB9007007FD /* Info.plist */,
+				D657FC4F220B560A007007FD /* Assets 22-32-09-235.xcassets */,
 			);
 			path = StarWors;
+			sourceTree = "<group>";
+		};
+		D657FC342209BBCD007007FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D657FC4B220A1CDE007007FD /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D657FC352209BBD4007007FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D657FC412209CC7E007007FD /* BlackBgView.swift */,
+				D657FC462209CF13007007FD /* BlackButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D657FC362209BBDB007007FD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D657FC242209BBB6007007FD /* SelectPersonVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D657FC372209BBE3007007FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D657FC382209BBED007007FD /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D657FC382209BBED007007FD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D657FC392209BDCA007007FD /* Starjout.ttf */,
+				D657FC3D2209BE59007007FD /* Starjedi.ttf */,
+				D657FC3E2209BE6B007007FD /* Starjhol.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D657FC432209CDF0007007FD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D657FC442209CE36007007FD /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D657FC482209DC11007007FD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D657FC492209DC2E007007FD /* PersonApi.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D657FC312209BBB9007007FD /* Build configuration list for PBXNativeTarget "StarWors" */;
 			buildPhases = (
+				E6F4C22356337DF630538FE9 /* [CP] Check Pods Manifest.lock */,
 				D657FC1B2209BBB6007007FD /* Sources */,
 				D657FC1C2209BBB6007007FD /* Frameworks */,
 				D657FC1D2209BBB6007007FD /* Resources */,
+				6A1B3A2AC8A98D5C11D29A73 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +228,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D657FC50220B560A007007FD /* Assets 22-32-09-235.xcassets in Resources */,
+				D657FC3A2209BDCA007007FD /* Starjout.ttf in Resources */,
 				D657FC2D2209BBB9007007FD /* LaunchScreen.storyboard in Resources */,
-				D657FC2A2209BBB9007007FD /* Assets.xcassets in Resources */,
+				D657FC3F2209BE73007007FD /* Starjhol.ttf in Resources */,
+				D657FC402209BE78007007FD /* Starjedi.ttf in Resources */,
 				D657FC282209BBB6007007FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A1B3A2AC8A98D5C11D29A73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StarWors/Pods-StarWors-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StarWors/Pods-StarWors-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6F4C22356337DF630538FE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarWors-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D657FC1B2209BBB6007007FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D657FC252209BBB6007007FD /* ViewController.swift in Sources */,
+				D657FC252209BBB6007007FD /* SelectPersonVC.swift in Sources */,
+				D657FC4A2209DC2E007007FD /* PersonApi.swift in Sources */,
+				D657FC472209CF13007007FD /* BlackButton.swift in Sources */,
 				D657FC232209BBB6007007FD /* AppDelegate.swift in Sources */,
+				D657FC4C220A1CDE007007FD /* Person.swift in Sources */,
+				D657FC422209CC7E007007FD /* BlackBgView.swift in Sources */,
+				D657FC452209CE36007007FD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +435,11 @@
 		};
 		D657FC322209BBB9007007FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF50840C4CAC3B56901C183 /* Pods-StarWors.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A2FYRX62X;
 				INFOPLIST_FILE = StarWors/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +454,11 @@
 		};
 		D657FC332209BBB9007007FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F01FFE2C4A8965C544C33C /* Pods-StarWors.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A2FYRX62X;
 				INFOPLIST_FILE = StarWors/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
