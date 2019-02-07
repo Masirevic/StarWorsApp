@@ -23,10 +23,14 @@ class PersonApi {
                 completion(nil)
                 return
             }
+            
             guard let data = response.data else { return completion(nil) }
+            
+            let jsonDecoder = JSONDecoder()
+            
             do {
-                let json = try JSON(data: data)
-                let person = self.parsePersonSwiftyJSON(json: json)
+                
+                let person =  try jsonDecoder.decode(Person.self, from: data)
                 completion(person)
             } catch {
                 debugPrint(error.localizedDescription)
@@ -37,6 +41,34 @@ class PersonApi {
         
         
     }
+    
+//    func getRandomAlamo(n: Int, completion: @escaping PersonResponseCompletion) {
+//
+//        guard let url = URL(string: "\(PEROSON_URL)\(n)") else {return}
+//
+//        Alamofire.request(url).responseJSON { (response) in
+//
+//            if let error = response.result.error {
+//                debugPrint("Network problem with downloding URL \(error.localizedDescription)")
+//                completion(nil)
+//                return
+//            }
+//            guard let data = response.data else { return completion(nil) }
+    
+    
+//            do {
+//                let json = try JSON(data: data)
+//                let person = self.parsePersonSwiftyJSON(json: json)
+//                completion(person)
+//            } catch {
+//                debugPrint(error.localizedDescription)
+//                completion(nil)
+//            }
+//
+//        }
+//
+//
+//    }
     
 //    func getRandomAlamo (n: Int, completion: @escaping PersonResponseCompletion) {
 //
